@@ -586,7 +586,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -601,7 +601,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING</PreprocessorDefinitions>
     </ClCompile>
@@ -623,7 +623,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING</PreprocessorDefinitions>
       <MultiProcessorCompilation>true</MultiProcessorCompilation>
@@ -639,7 +639,7 @@
       <TreatWarningAsError>true</TreatWarningAsError>
       <DisableSpecificWarnings>
       </DisableSpecificWarnings>
-      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp;tools/VSCompatibility.hpp</ForcedIncludeFiles>
+      <ForcedIncludeFiles>tools/WindowsNoMinMax.hpp;tools/Std.hpp</ForcedIncludeFiles>
       <LanguageStandard>stdcpplatest</LanguageStandard>
       <PreprocessorDefinitions>_SILENCE_CXX17_CODECVT_HEADER_DEPRECATION_WARNING</PreprocessorDefinitions>
     </ClCompile>
