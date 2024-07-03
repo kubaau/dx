@@ -14,7 +14,7 @@ Mesh::Mesh(Device& device, Filename filename)
     using namespace std;
     using Vertex = Vertex::Basic;
 
-    constexpr auto base_filename = "../../../assets/models/";
+    constexpr auto base_filename = "../../assets/models/";
     ifstream file_in{base_filename + filename};
     assert(file_in && "Model not found");
 

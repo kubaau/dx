@@ -58,7 +58,7 @@ Textures loadTextures(Device& device, Context& context)
 {
     using namespace std;
 
-    const string base_filename = "../../../assets/textures/";
+    const string base_filename = "../../assets/textures/";
     ifstream file{"../../assets/textures.txt"};
     assert(file && "Cannot find textures");
     string tex_file, tex_extension, tex_name;
