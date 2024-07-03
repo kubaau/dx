@@ -1,0 +1,384 @@
+# id
+# mesh, mesh_offset, topology, 
+# diffuse, normal, normal_sec, displacement, cube_map, tex_array, has_tex_transforms
+# [opt] diffuse_transform, normal_transform, normal_sec_transform, height_transform, height_sec_transform, 
+# material, material_shadow, reflecting, reflectable, enabled
+# effect, near, far
+# tech_near, tech_mid, tech_far
+# tech_no_tex_near, tech_no_tex_mid, tech_no_tex, far,
+# tech_fog_near, tech_fog_mid, tech_fog_far, 
+# tech_face_normals, tech_vertex_normals, 
+# input_layout, rasterizer_state, ds_state, blend_state
+# rotation (without pi), 
+# scale, 
+# translation
+
+sky
+sky 0 trianglelist
+0 0 0 0 sky 0 0
+none none 0 0 1
+sky 0 0
+sky sky sky 
+sky sky sky 
+sky sky sky 
+none none
+position_only none none none
+0 0 0
+1 1 1
+0 0 0
+
+quadratic_bezier_triangle_patch
+quadratic_bezier_triangle_patch 0 6cp
+0 0 0 0 0 0 0
+quadratic_bezier none 0 1 1
+tessellation 0 0
+tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3 
+tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3
+tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3 tessellation_quadratic_bezier_triangle_light3
+none none
+position_only wireframe none none
+0 0 0
+.5 .5 .5
+-13 -10 -8
+
+quadratic_bezier_quad_patch
+quadratic_bezier_quad_patch 0 9cp
+0 0 0 0 0 0 0
+quadratic_bezier none 0 1 1
+tessellation 0 0
+tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 
+tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 
+tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 tessellation_quadratic_bezier_quad_light3 
+none none
+position_only wireframe none none
+0 0 0
+.5 .5 .5
+0 -10 -8
+
+cubic_bezier_triangle_patch
+cubic_bezier_triangle_patch 0 10cp
+0 0 0 0 0 0 0
+none none 0 1 1
+tessellation 0 0
+tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle 
+tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle 
+tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle tessellation_cubic_bezier_triangle 
+none none
+position_only wireframe none none
+0 0 0
+.5 .5 .5
+13 -10 -8
+
+cubic_bezier_quad_patch
+cubic_bezier_quad_patch 0 16cp
+0 0 0 0 0 0 0
+none none 0 1 1
+tessellation 0 0
+tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad 
+tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad 
+tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad tessellation_cubic_bezier_quad 
+none none
+position_only wireframe none none
+0 0 0
+.5 .5 .5
+13 -5 -8
+
+icosahedron_patch
+icosahedron_patch 0 3cp
+0 0 0 0 0 0 0
+none none 0 1 1
+tessellation 0 0
+tessellation_icosahedron tessellation_icosahedron tessellation_icosahedron 
+tessellation_icosahedron tessellation_icosahedron tessellation_icosahedron 
+tessellation_icosahedron tessellation_icosahedron tessellation_icosahedron 
+none none
+position_only wireframe none none
+0 0 0
+1 1 1
+0 -5 -8
+
+triangle_patch
+triangle_patch 0 3cp
+0 0 0 0 0 0 0
+none none 0 1 1
+tessellation 0 0
+tessellation_triangle tessellation_triangle tessellation_triangle 
+tessellation_triangle tessellation_triangle tessellation_triangle 
+tessellation_triangle tessellation_triangle tessellation_triangle 
+none none
+position_only wireframe none none
+0 0 0
+1 1 1
+0 -5 -8
+
+quad_patch
+quad_patch 0 4cp
+0 0 0 0 0 0 0
+none none 0 1 1
+tessellation 0 0
+tessellation_quad tessellation_quad tessellation_quad 
+tessellation_quad tessellation_quad tessellation_quad 
+tessellation_quad tessellation_quad tessellation_quad 
+none none
+position_only wireframe none none
+0 0 0
+1 1 1
+-13 -5 -8
+
+waves_cpu
+waves_cpu 0 trianglelist
+water 0 0 0 0 0 0
+waves none 0 1 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none transparent
+0 0 0
+0.1 0.1 0.1
+-29 0.1 -8
+
+waves_gpu
+waves_gpu 0 trianglelist
+water 0 0 0 0 0 0
+waves none 0 1 1
+basic 0 0
+displacement3_tex displacement3_tex displacement3_tex
+displacement0 displacement0 displacement0
+displacement3_tex_fog displacement3_tex_fog displacement3_tex_fog
+none none
+basic none none transparent
+0 0 0
+0.1 0.1 0.1
+-13 0.1 -8
+
+blur_quad
+screen_quad 0 trianglelist
+0 0 0 0 0 0 0
+box none 0 1 0
+basic 0 0
+light0_tex light0_tex light0_tex 
+light0_tex light0_tex light0_tex
+light0_tex light0_tex light0_tex
+none none
+basic none none none
+0 0 0
+1 1 1
+0 0 0
+
+depth_quad
+screen_quad 0 trianglelist
+0 0 0 0 0 0 0
+box none 0 1 0
+basic 0 0
+light0 light0 light0 
+light0 light0 light0
+light0 light0 light0
+none none
+basic no_cull depth_counter_visualizer none
+0 0 0
+1 1 1
+0 0 0
+
+depth_box
+box 0 trianglelist
+0 0 0 0 0 0 0
+box none 0 1 0
+basic 0 0
+light0 light0 light0 
+light0 light0 light0
+light0 light0 light0
+none none
+basic no_cull depth_counter_visualizer none
+0 0 0
+10 10 10
+0 0 0
+
+land
+land 0 trianglelist
+grass 0 0 0 0 0 1
+5 0 0 0 
+0 5 0 0 
+0 0 5 0 
+0 0 0 1 
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1 
+1 0 0 0 
+0 1 0 0 
+0 0 1 0 
+0 0 0 1
+land none 0 1 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+0 0 0
+0.1 0.1 0.1
+-13 0 -8
+
+bolt
+cylinder 0 trianglelist
+bolt 0 0 0 0 0 0
+none none 0 1 1
+basic 0 0
+light0_tex light0_tex light0_tex 
+light3 light3 light3
+light0_tex light0_tex light0_tex
+none none
+basic no_cull depth_write_off additive
+0 0 0
+0.1 0.1 0.1
+-13 2 -8
+
+box
+box 0 trianglelist
+fence 0 0 0 0 0 0
+box none 0 1 1
+basic 0 0
+light3_tex_alphaClip light3_tex_alphaClip light3_tex_alphaClip 
+light3 light3 light3
+light3_tex_alphaClip_fog light3_tex_alphaClip_fog light3_tex_alphaClip_fog
+none none
+basic no_cull none none
+0 0 0
+1.5 1.5 1.5
+-13 2 -8
+
+trees
+tree_sprites 0 pointlist
+0 0 0 0 0 tree_array 0
+tree none 0 0 1
+tree_sprite 0 0
+light3_tex_alphaClip light3_tex_alphaClip light3_tex_alphaClip 
+light3 light3 light3
+light3_tex_alphaClip_fog light3_tex_alphaClip_fog light3_tex_alphaClip_fog
+none none
+tree_point none none alpha_to_coverage
+0 0 0
+1 1 1
+0 0 0
+
+floor
+floor 0 trianglelist
+floor 0 0 0 0 0 0
+room none 0 1 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+0 0 0
+1 1 1
+0 0 0
+
+wall
+wall 0 trianglelist
+wall 0 0 0 0 0 0
+room none 0 0 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic no_cull none none
+0 0 0
+1 1 1
+0 0 0
+
+mirror
+mirror 0 trianglelist
+mirror 0 0 0 0 0 0
+mirror none 1 0 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+0 0 0
+1 1 1
+0 0 0
+
+mirror2
+mirror 0 trianglelist
+mirror 0 0 0 0 0 0
+mirror none 0 0 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+0 1 0
+1 1 1
+0 0 0
+
+skull1
+skull 0 trianglelist
+floor 0 0 0 0 0 0
+skull shadow 0 1 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+0.0 0.5 0.0
+0.45 0.45 0.45
+0.0 1.0 -5.0
+
+skull2
+skull 0 trianglelist
+wall 0 0 0 0 0 0
+skull none 0 1 1
+basic 0 0
+light3_tex light3_tex light3_tex 
+light3 light3 light3
+light3_tex_fog light3_tex_fog light3_tex_fog
+none none
+basic none none none
+-0.25 0.0 0.0
+0.25 0.25 0.25
+0.0 4.0 0.0
+
+circle
+circle 0 linestrip
+0 0 0 0 0 0 0
+skull none 0 0 1
+circle_to_cylinder 0 0
+light3 light3 light3
+light3 light3 light3
+light3 light3 light3
+none none
+circle_to_cylinder no_cull none none
+0 0 0
+1 1 1
+3.0 0.5 3.0
+
+icosahedron
+icosahedron 0 trianglelist
+0 0 0 0 0 0 0
+skull none 0 1 1
+icosahedron 10 15
+icosahedron_subdivision2 icosahedron_subdivision1 icosahedron_explosion
+icosahedron_subdivision2 icosahedron_subdivision1 icosahedron_explosion
+icosahedron_subdivision2 icosahedron_subdivision1 icosahedron_explosion
+icosahedron_face_normals icosahedron_vertex_normals
+basic no_cull none none
+0 0 0
+1 1 1
+-3.0 2.0 -4.0

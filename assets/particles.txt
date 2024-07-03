@@ -1,0 +1,5 @@
+// id, effect, diffuse, random, max_particle_count, position
+fire fire fire fire 500 0 1 120
+rain rain rain fire 10000 0 0 0
+smoke smoke smoke fire 500 0 1 120
+fountain fountain rain fire 10000 5 0 120

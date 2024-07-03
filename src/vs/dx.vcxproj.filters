@@ -1,0 +1,689 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\App">
+      <UniqueIdentifier>{dc7e3762-5e8c-400d-b8a9-5eb5760636f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{44f11780-bdf1-4bf2-b5ae-eeaa8c14be57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App">
+      <UniqueIdentifier>{ca4996c8-41a7-47a3-bd83-b1c76692aa61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{e9b86795-e5dc-4310-98e6-e9f8a2425040}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\models">
+      <UniqueIdentifier>{978858ca-05c0-4276-a916-f128839e3bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures">
+      <UniqueIdentifier>{a01bcacf-b0c5-4991-9b5f-31918577c45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\Interfaces">
+      <UniqueIdentifier>{44083eb3-f2a2-4f2f-8a6e-455297572e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\App\Typedefs">
+      <UniqueIdentifier>{b875de8b-a5cd-4d89-a27c-98af28eebe28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\States">
+      <UniqueIdentifier>{f3fa5755-ecdf-44f2-ac1a-848913c8c9c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Effects">
+      <UniqueIdentifier>{2a0631d8-4225-436d-934e-cc4a283bded3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Externals">
+      <UniqueIdentifier>{d851be08-812e-4f04-b40a-69d01b053227}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\States">
+      <UniqueIdentifier>{896ef33d-1b3c-4a44-9b50-052e9d68f520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Effects">
+      <UniqueIdentifier>{7c70ae3c-63ff-49ef-98a4-e9578c9725bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Effects\HLSL">
+      <UniqueIdentifier>{9164bb2e-e2bd-44ae-9299-0297b3accc19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Structs">
+      <UniqueIdentifier>{30853729-7551-4b06-9631-fe06f979bec8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\SpecialEffects">
+      <UniqueIdentifier>{fcf03efc-e7e0-404f-96aa-fd5b54af8376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\SpecialEffects">
+      <UniqueIdentifier>{593bfcb6-f023-4c64-8ede-2aed6ed75ad9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Engine">
+      <UniqueIdentifier>{c4ca3dbe-5772-425f-9f18-e858d06cf0ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\textures\BoltAnim">
+      <UniqueIdentifier>{884540c4-fdb8-45cf-9370-0aab94a7c5a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\SpecialEffects\Interfaces">
+      <UniqueIdentifier>{83b5d519-dc66-463c-afa9-89bf096a414b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Interfaces">
+      <UniqueIdentifier>{bb77dea5-22a4-4ed0-9874-194b01400d2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Typedefs">
+      <UniqueIdentifier>{d6d1a4e2-c355-4076-a14f-7efa74b872dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Engine">
+      <UniqueIdentifier>{96c8b431-5e73-4349-b172-25e5c9636381}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Assets">
+      <UniqueIdentifier>{8cef23ea-d8dd-43f1-9765-8f9671ef449f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Assets">
+      <UniqueIdentifier>{2661d6e7-5e07-4030-9d7f-e99d424d5b47}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\cpp\Window.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\MainWndProc.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\AppEngine.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\GraphicsDebugUtils.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\main.cpp">
+      <Filter>Source Files\App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\BlendStates.cpp">
+      <Filter>Source Files\Graphics\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\DepthStencilStates.cpp">
+      <Filter>Source Files\Graphics\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\RasterizerStates.cpp">
+      <Filter>Source Files\Graphics\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\InputLayouts.cpp">
+      <Filter>Source Files\Graphics\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Effect.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Effects.cpp">
+      <Filter>Source Files\Graphics\Effects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\GraphicsDebugFlags.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Blur.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WavesCPU.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\WavesGPU.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Mesh.cpp">
+      <Filter>Source Files\Graphics\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Renderable.cpp">
+      <Filter>Source Files\Graphics\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\TextureLoaders.cpp">
+      <Filter>Source Files\Graphics\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DEngine.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\CustomGeometry.cpp">
+      <Filter>Source Files\Graphics\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\ComputeShaderVecAdd.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\ComputeShaderVecLength.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DInit.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DDependencies.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\RenderStates.cpp">
+      <Filter>Source Files\Graphics\States</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\SpecialEffectsInit.cpp">
+      <Filter>Source Files\Graphics\SpecialEffects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\SceneInit.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DOnResize.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DEvents.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DEye.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DUpdate.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\D3DDraw.cpp">
+      <Filter>Source Files\Graphics\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\GraphicsOptions.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\AssetsInit.cpp">
+      <Filter>Source Files\Graphics\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\Camera.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\cpp\GeometryGenerator.cpp">
+      <Filter>Source Files\Externals</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\cpp\AppEngine.hpp">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\AppTimer.hpp">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DebugUtils.hpp">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\MainWndProc.hpp">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Window.hpp">
+      <Filter>Header Files\App</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ITimer.hpp">
+      <Filter>Header Files\App\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IWindow.hpp">
+      <Filter>Header Files\App\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Interface.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WindowsTypedefs.hpp">
+      <Filter>Header Files\App\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IOTypedefs.hpp">
+      <Filter>Header Files\App\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ContainerTypedefs.hpp">
+      <Filter>Header Files\App\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Std.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\AssetsInit.hpp">
+      <Filter>Header Files\Graphics\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DXTypedefs.hpp">
+      <Filter>Header Files\Graphics\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsTypedefs.hpp">
+      <Filter>Header Files\Graphics\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\CustomGeometry.hpp">
+      <Filter>Header Files\Graphics\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Mesh.hpp">
+      <Filter>Header Files\Graphics\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ComPtr.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Renderable.hpp">
+      <Filter>Header Files\Graphics\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Lights.hpp">
+      <Filter>Header Files\Graphics\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Material.hpp">
+      <Filter>Header Files\Graphics\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\MathTypedefs.hpp">
+      <Filter>Header Files\Graphics\Typedefs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\TextureLoaders.hpp">
+      <Filter>Header Files\Graphics\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Effect.hpp">
+      <Filter>Header Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Effects.hpp">
+      <Filter>Header Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\EffectTypedefs.hpp">
+      <Filter>Header Files\Graphics\Effects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsDebugFlags.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\D3DEngine.hpp">
+      <Filter>Header Files\Graphics\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\D3DInit.hpp">
+      <Filter>Header Files\Graphics\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Color.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Fog.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IBlur.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ICamera.hpp">
+      <Filter>Header Files\Graphics\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IComputeShader.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IWavesCPU.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\IWavesGPU.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Particle.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Terrain.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Blur.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ComputeShaderVecAdd.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\ComputeShaderVecLength.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\SpecialEffectsInit.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WavesCPU.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\WavesGPU.hpp">
+      <Filter>Header Files\Graphics\SpecialEffects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\BlendStates.hpp">
+      <Filter>Header Files\Graphics\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\DepthStencilStates.hpp">
+      <Filter>Header Files\Graphics\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\InputLayouts.hpp">
+      <Filter>Header Files\Graphics\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\RasterizerStates.hpp">
+      <Filter>Header Files\Graphics\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\RenderStates.hpp">
+      <Filter>Header Files\Graphics\States</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Vertex.hpp">
+      <Filter>Header Files\Graphics\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\Camera.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsDebugUtils.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\GraphicsOptions.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\cpp\MathUtils.hpp">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\assets\models\models.txt">
+      <Filter>Resource Files\models</Filter>
+    </Text>
+    <Text Include="..\..\assets\lights.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\assets\textures\textures.txt">
+      <Filter>Resource Files\textures</Filter>
+    </Text>
+    <Text Include="..\..\assets\materials.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\assets\scene.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\assets\models\skull.txt">
+      <Filter>Resource Files\models</Filter>
+    </Text>
+    <Text Include="..\..\assets\lights_skull_blend.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="..\..\assets\particles.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\assets\textures\brick01.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\checkboard.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\ice.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\grass.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\water2.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\WireFence.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\tree3.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\tree0.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\tree1.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\tree2.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt001.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt002.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt003.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt004.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt005.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt006.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt007.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt008.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt009.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt010.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt011.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt012.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt013.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt014.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt015.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt016.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt017.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt018.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt019.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt020.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt021.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt022.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt023.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt024.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt025.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt026.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt027.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt028.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt029.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt030.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt031.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt032.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt033.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt034.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt035.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt036.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt037.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt038.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt039.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt040.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt041.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt042.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt043.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt044.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt045.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt046.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt047.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt048.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt049.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt050.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt051.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt052.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt053.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt054.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt055.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt056.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt057.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt058.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt059.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\BoltAnim\Bolt060.bmp">
+      <Filter>Resource Files\textures\BoltAnim</Filter>
+    </Image>
+    <Image Include="..\..\assets\textures\grasscube1024.dds">
+      <Filter>Resource Files\textures</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\hlsl\Basic.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Blur.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\CircleToCylinder.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\ComputeMath.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\DebugTexture.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\DisplacementMap.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Fire.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Fountain.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Icosahedron.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\NormalMap.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Rain.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\ShadowMap.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Sky.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Smoke.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Terrain.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Tessellation.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\TreeSprite.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Water.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\Waves.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\hlsl\BasicInstanced.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\hlsl\Lights.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\Particle.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\States.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\Structs.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+    <None Include="..\hlsl\Utils.fx">
+      <Filter>Source Files\Graphics\Effects\HLSL</Filter>
+    </None>
+  </ItemGroup>
+</Project>
